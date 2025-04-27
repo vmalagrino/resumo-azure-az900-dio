@@ -19,11 +19,11 @@ Resumo sobre o Microsoft Azure - Certificação AZ900 - DIO
 
 ## Vantagens e Desvantagems
 
-|Modelo                          |Vantagem                                                                |Desvantagem                              |
-|--------------------------------|------------------------------------------------------------------------|-----------------------------------------|
-| **Nuvem Privada** (on-premise) | Maior controle e personalização                                        | Custo alto de manutenção e espaço físico|
-| **Nuvem Pública** (cloud)      | Custo baixo, exacalabilidade e flexibilidade                           | Dependência da internet                 |
-| **Nuvem Híbrida**              | Flexibilidade de escolher o que e onde, de acordo com as necessidades  | Complexidade na gestão                  |
+|Modelo de nuvem            |Vantagem                                                                |Desvantagem                              |
+|---------------------------|------------------------------------------------------------------------|-----------------------------------------|
+| **Privada (on-premise)**  | Maior controle e personalização                                        | Custo alto de manutenção e espaço físico|
+| **Pública (cloud)**       | Custo baixo, exacalabilidade e flexibilidade                           | Dependência da internet                 |
+| **Híbrida**               | Flexibilidade de escolher o que e onde, de acordo com as necessidades  | Complexidade na gestão                  |
 
 
 ## Benefícios da Nuvem Pública (Cloud)
