@@ -88,9 +88,10 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 
 
 
- COmo utilizei o GitHub
+ Como utilizei o GitHub
 - Documentar o estudo e versionar o conteúdo.
 - O arquivo **README.md** contém o resumo dos conceitos abordados, e todos os arquivos estão versionados para facilitar a consulta e o compartilhamento.
+- Documentação ensinando a criar uma máquina virtual.
 
 ## Links úteis
 - [Documentação oficial do Azure](https://learn.microsoft.com/azure/)
