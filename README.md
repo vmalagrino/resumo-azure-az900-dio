@@ -50,6 +50,10 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 ### Gerenciabilidade
 - Escalar automaticamente a implantação de recursos com base na necessidade. Podemos utilizar um modelo pré-configurado facilitando a implantação inicial.
 
+### Como criar uma máquina virtual com Azure
+
+
+
 ## COmo utilizei o GitHub
 - Documentar o estudo e versionar o conteúdo.
 - O arquivo **README.md** contém o resumo dos conceitos abordados, e todos os arquivos estão versionados para facilitar a consulta e o compartilhamento.
@@ -57,3 +61,4 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 ## Links úteis
 - [Documentação oficial do Azure](https://learn.microsoft.com/azure/)
 - [Certificação AZ900 - Microsoft](https://learn.microsoft.com/certifications/exams/az-900/)
+- [Criar uma máquina virtual do Windows no Portal do Azure](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)
