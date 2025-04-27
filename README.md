@@ -1,6 +1,9 @@
 # Resumo Azure - Certificação AZ900 - DIO
 Resumo sobre o Microsoft Azure - Certificação AZ900 - DIO
 
+## Introdução
+Este repositório contém um resumo dos conceitos aprendidos durante o estudo da certificação AZ900 da Microsoft, cobrindo aspectos básicos do Azure.
+
 ## O que é a computação em nuvem?
 - É o fornecimento de serviços de computação pela internet, habilitando inovações mais rápidas, recursos flexíveis e economia de escala.
 - É a virtualização de uma empresa, de modo IaaS, pagando apenas pelo uso.
@@ -19,11 +22,11 @@ Resumo sobre o Microsoft Azure - Certificação AZ900 - DIO
 
 ## Vantagens e Desvantagems
 
-|Modelo de nuvem            |Vantagem                                                                |Desvantagem                              |
-|---------------------------|------------------------------------------------------------------------|-----------------------------------------|
-| **Privada (on-premise)**  | Maior controle e personalização                                        | Custo alto de manutenção e espaço físico|
-| **Pública (cloud)**       | Custo baixo, exacalabilidade e flexibilidade                           | Dependência da internet                 |
-| **Híbrida**               | Flexibilidade de escolher o que e onde, de acordo com as necessidades  | Complexidade na gestão                  |
+|Modelo                   |Vantagens                                                             |Desvantagens                             |
+|-------------------------|----------------------------------------------------------------------|-----------------------------------------|
+| **Privada (on-premise)**| Maior controle e personalização                                      | Custo alto de manutenção e espaço físico|
+| **Pública (cloud)**     | Custo baixo, exacalabilidade e flexibilidade                         | Dependência da internet                 |
+| **Híbrida**             | Flexibilidade de escolher o que e onde, de acordo com as necessidades| Complexidade na gestão                  |
 
 
 ## Benefícios da Nuvem Pública (Cloud)
@@ -46,3 +49,11 @@ Resumo sobre o Microsoft Azure - Certificação AZ900 - DIO
 - Auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de conformidade com seus padrões corporativos e fornece estratégias para mitigar problemas.
 ### Gerenciabilidade
 - Escalar automaticamente a implantação de recursos com base na necessidade. Podemos utilizar um modelo pré-configurado facilitando a implantação inicial.
+
+## COmo utilizei o GitHub
+- Documentar o estudo e versionar o conteúdo.
+- O arquivo **README.md** contém o resumo dos conceitos abordados, e todos os arquivos estão versionados para facilitar a consulta e o compartilhamento.
+
+## Links úteis
+- [Documentação oficial do Azure](https://learn.microsoft.com/azure/)
+- [Certificação AZ900 - Microsoft](https://learn.microsoft.com/certifications/exams/az-900/)
