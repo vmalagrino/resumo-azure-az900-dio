@@ -50,11 +50,45 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 ### Gerenciabilidade
 - Escalar automaticamente a implantação de recursos com base na necessidade. Podemos utilizar um modelo pré-configurado facilitando a implantação inicial.
 
-### Como criar uma máquina virtual com Azure
+## Como criar uma máquina virtual com Azure
+### Acesse o Portal Azure
+- Vá para [Portal Azure](https://portal.azure.com)
+- Crie sua conta gratuitamente e preencha com os dados solicitados.
+- Vale lembrar que é necessário um cartão de crédito para criar sua conta, será débito um baixo valor e estornado em sequência.
+### Criação da Máquina Virtual
+- Acesse os recursos na lateral esquerda da tela e clique em "Máquinas Virtuais".
+- Clique em "Criar" no centro da tela e depois em "Máquina virtual do Azure".
+### Básico
+- Grupo de Recursos: Selecione ou crie um novo.
+- Nome da máquina virtual: "dio-teste-vm"
+- Região: Local onde sua máquina será criada, observação o Brasil é uma região com valor elevado na criação.
+- Opções de disponibilidade: "Zona de disponibilidade".
+- Zona de disponibilidade: Refere-se aos locais dentro da região e quantos queremos adicionar, podemos colocar até 3 zones, isso faz com que nossos serviços não parem independente do que ocorra.
+- Tipo de segurança: "Computadores virtuais de inicialização confiável".
+- Imagem: Qual o SO queremos trabalhar, isso influencia o valor final.
+- Tamanho: em teoria se trata das configurações da máquina.
+- Conta de ADM: Deve ser criado o login e senha para acesso daquela máquina, seguindo os padrões de senha da Microsoft.
+- Regras: Devido não possuirmos uma VPN para acesso é necessário liberar a porta RDP (3389) para acesso em máquinas Microsoft, não é aconselhado devido questões de segurança, mas como estamos estudando, podemos manter assim.
+### Discos
+- Tipo de disco de SO: o conceito aqui é igual a uma máquina física, um SSD Premium, será uma excelente opção.
+### Rede
+- Rede Virtual e Sub-rede: O Azure irá criar esta infraestrutira de rede para nós, porém em cenários produtivos criar a rede e depois a máquina virtual é a melhor decisão.
+- Excluir o IP público e a NIC quando a VM for excluída: Deixe esta opção selecionada, pois se excluir a máquina e o IP público não for excluído, o serviços seram cobrados pois aquele IP estará orfão e gerando encargos.
+### Gerenciamento
+- Desligamento automático: O ideal é deixar selecionado, pois se esquecer de desligar a máquina ela também continua gerando consumo, configure o fuso-horário igual a região que a máquina será criada.
+- Defina a hora de desligamento
+- Selecione a opção de notificação por e-mail, assim o Azure enviará ao e-mail cadastrado em sequência um aviso sobre o desligamento da máquina.
+### Monitoramento
+- Podemos receber um diagnóstico de performance da máquina criada.
+### Marcas (Tags)
+- Etiquetas sobre os recursos que estamos criando.
+### Revisar + Criar 
+- O Azure calcula os custos por hora daquela máquina e gera um resumo das configurações que acabamos de fazer.
+- Selecionar "Criar".
 
 
 
-## COmo utilizei o GitHub
+ COmo utilizei o GitHub
 - Documentar o estudo e versionar o conteúdo.
 - O arquivo **README.md** contém o resumo dos conceitos abordados, e todos os arquivos estão versionados para facilitar a consulta e o compartilhamento.
 
