@@ -1,5 +1,4 @@
 # Resumo Azure - Certificação AZ900 - DIO
-Resumo sobre o Microsoft Azure - Certificação AZ900 - DIO
 
 ## Introdução
 Este repositório contém um resumo dos conceitos aprendidos durante o estudo da certificação AZ900 da Microsoft, cobrindo aspectos básicos do Azure.
@@ -9,14 +8,14 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 - É a virtualização de uma empresa, de modo IaaS, pagando apenas pelo uso.
 
 ## Modelos
-### PRIVADA
+### Privada
 - A empresa cria a sua nuvem, um ambiente interno em seu data center, sem os grandes players, este modelo também se chama on-premise.
 - A empresa é responsável por operrar os serviços e não gera acessos a usuários de fora da organização.
-### PÚBLICA
+### Pública
 - Entrega de serviços e recursos para diversas organizações e usuários, através de um provedor de hosting.
 - Acesso via conexão de rede segura.
 -  Empresas deste segmento, Microsoft (Azure), Amazon (AWS), Google (GCP), Oracle (Oracle Cloud).
-### HÍBRIDA
+### Híbrida
 - A organização opta em utilizar os dois modelos anteriores, por questões como sazonalidade, se em determinado período do ano ela recebe um crescimento de acessos e seu modelo on-premise não consegue dar conta, ela utiliza de máquinas em modelo cloud para suportar aquela operação. Ao passar o período ela encerra as máquinas e volta a utilizar apenas o seu modelo de nuvem privada, pagando apenas pelo que foi utilizado.
 - Este modo ajuda as organizações em momentos onde seus serviços são requisitados além das capacidades.
 
@@ -50,7 +49,7 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 ### Gerenciabilidade
 - Escalar automaticamente a implantação de recursos com base na necessidade. Podemos utilizar um modelo pré-configurado facilitando a implantação inicial.
 
-## Como criar uma máquina virtual com Azure
+## Criar uma máquina virtual do Azure
 ### Acesse o Portal Azure
 - Vá para [Portal Azure](https://portal.azure.com)
 - Crie sua conta gratuitamente e preencha com os dados solicitados.
@@ -86,14 +85,18 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 - O Azure calcula os custos por hora daquela máquina e gera um resumo das configurações que acabamos de fazer.
 - Selecionar "Criar".
 
+## Criar um Banco de Dados SQL do Azure
 
 
- Como utilizei o GitHub
+
+ ## Como utilizei o GitHub
 - Documentar o estudo e versionar o conteúdo.
 - O arquivo **README.md** contém o resumo dos conceitos abordados, e todos os arquivos estão versionados para facilitar a consulta e o compartilhamento.
 - Documentação ensinando a criar uma máquina virtual.
+- Documentação ensinando a criar um banco de dados dentro do Azure
 
 ## Links úteis
 - [Documentação oficial do Azure](https://learn.microsoft.com/azure/)
 - [Certificação AZ900 - Microsoft](https://learn.microsoft.com/certifications/exams/az-900/)
 - [Criar uma máquina virtual do Windows no Portal do Azure](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)
+- [Criar um banco de dados individual – Banco de Dados SQL do Azure](https://learn.microsoft.com/pt-br/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal)
