@@ -108,8 +108,9 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 ### Rede
 - Método de conectividade: Iremos selecionar a opção "Sem acesso", por estarmos criando para estudo, porém temos opções como "IP público" ou "IP privado", esta opção para empresas é a mais adequada e garante maior confiabilidade e segurança.
 ### Segurança
-- Podemos encriptar os dados, mantendo acesso ao manuseio das tabelas mas sem acesso ao dados brutos.
-### Configurações adicionais: Ao selecionar "Amostra" recebemos uma lista ficticia para estudo.
+- Podemos encriptar os dados: mantendo acesso ao manuseio das tabelas mas sem acesso ao dados brutos.
+### Configurações adicionais: 
+- Ao selecionar "Amostra" recebemos uma lista ficticia para estudo.
 ### Rótulos (Tags)
 - Etiquetas sobre os recursos que estamos criando.
 ### Revisar + Criar
