@@ -85,9 +85,16 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 - O Azure calcula os custos por hora daquela máquina e gera um resumo das configurações que acabamos de fazer.
 - Selecionar "Criar".
 
-## Criar um Banco de Dados SQL do Azure
+## O que é o Azure SQL Database (PaaS)?
+É um serviço de banco de dados relacional totalmente gerenciado na nuvem da Microsoft. Baseado no SQL Server e permite criar, gerenciar e escalar bancos de dados sem precisar se preocupar com a infraestrutura física (como servidores, manutenção ou atualizações). O Azure SQL Database oferece alta disponibilidade, backups automáticos, escalabilidade sob demanda e recursos de segurança integrados.
+### Caracteristicas
+- Banco de dados como serviço (PaaS - Platform as a Service).
+- A Microsoft gerencia backups, atualizações, alta disponibilidade e segurança.
+- Ideal para quem quer focar no desenvolvimento de aplicações sem se preocupar com infraestrutura.
+- Suporta escalabilidade automática e balanceamento de carga.
 
-
+## Criar uma instância de banco de dados SQL do Azure
+- sss
 
  ## Como utilizei o GitHub
 - Documentar o estudo e versionar o conteúdo.
@@ -100,3 +107,4 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 - [Certificação AZ900 - Microsoft](https://learn.microsoft.com/certifications/exams/az-900/)
 - [Criar uma máquina virtual do Windows no Portal do Azure](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)
 - [Criar um banco de dados individual – Banco de Dados SQL do Azure](https://learn.microsoft.com/pt-br/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal)
+- [O que é o SQL Azure?](https://learn.microsoft.com/pt-br/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview?view=azuresql)
