@@ -94,8 +94,28 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 - Suporta escalabilidade automática e balanceamento de carga.
 
 ## Criar uma instância de banco de dados SQL do Azure
-- sss
-
+### Acesse o Portal Azure
+- Vá para [Portal Azure](https://portal.azure.com)
+- Acesse os recursos na lateral esquerda da tela e clique em "SQl databases".
+- Clique em "Criar" no centro da tela.
+### Básico
+- Grupo de Recursos: Selecione ou crie um novo.
+- Nome do banco de dados: Nomeie o seu DB.
+- Servidor: Selecione ou crie um novo. (Ao criar um novo servidor, o nome deve ser único, selecione a localização e escolha o método de autenticação).
+- Ambiente de carga de trabalho: Selecione "Produção".
+- Compute + Storage: Se refere ao poder computacional e ao armazenamento do database, por padrão é selecionado a opção mais cara, mas podemos alterar. Se necessário ou sentir que o banco está sofrendo com gargalos, podemos fazer alterações após criado.
+- Redundância do armazenamento de backup: O Azure já cria uma estrutura de backups mas podemos selecionar como isso será distribuído na região.
+### Rede
+- Método de conectividade: Iremos selecionar a opção "Sem acesso", por estarmos criando para estudo, porém temos opções como "IP público" ou "IP privado", esta opção para empresas é a mais adequada e garante maior confiabilidade e segurança.
+### Segurança
+- Podemos encriptar os dados, mantendo acesso ao manuseio das tabelas mas sem acesso ao dados brutos.
+### Configurações adicionais: Ao selecionar "Amostra" recebemos uma lista ficticia para estudo.
+### Rótulos (Tags)
+- Etiquetas sobre os recursos que estamos criando.
+### Revisar + Criar
+- O Azure calcula os custos e gera um resumo das configurações que acabamos de fazer.
+- Selecionar "Criar".
+  
  ## Como utilizei o GitHub
 - Documentar o estudo e versionar o conteúdo.
 - O arquivo **README.md** contém o resumo dos conceitos abordados, e todos os arquivos estão versionados para facilitar a consulta e o compartilhamento.
@@ -108,3 +128,4 @@ Este repositório contém um resumo dos conceitos aprendidos durante o estudo da
 - [Criar uma máquina virtual do Windows no Portal do Azure](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)
 - [Criar um banco de dados individual – Banco de Dados SQL do Azure](https://learn.microsoft.com/pt-br/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal)
 - [O que é o SQL Azure?](https://learn.microsoft.com/pt-br/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview?view=azuresql)
+- [Implante o Banco de Dados SQL do Azure gratuitamente](https://learn.microsoft.com/en-us/azure/azure-sql/database/free-offer?view=azuresql)
